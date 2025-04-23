@@ -37,7 +37,7 @@ except Exception as e:
 
 
 # PDF dosya adı ve Chroma veritabanı dizini
-PDF_PATH = "SteelSwarmApocalypse(SSA)Guide.pdf" # PDF dosyanızın adını buraya yazın
+PDF_PATH = "steelswarmapocalypserehber.pdf" # PDF dosyanızın adını buraya yazın
 CHROMA_DB_DIR = "./chroma_db"
 
 # RAG Model ve Ayarları
@@ -45,7 +45,7 @@ CHROMA_DB_DIR = "./chroma_db"
 EMBEDDING_MODEL = "models/embedding-001"
 # Chat modeli - cevapları üretmek için kullanılır. Daha güçlü bir model için 'gemini-1.5-pro' deneyin.
 # 'gemini-1.5-flash' daha hızlı ve uygun fiyatlıdır.
-CHAT_MODEL = "gemini-1.5-flash"
+CHAT_MODEL = "gemini-2.0-flash"
 # CHAT_MODEL = "gemini-1.5-pro" # Daha iyi cevaplar için deneyin (maliyetli olabilir)
 
 # Metin parçalama ayarları
